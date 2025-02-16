@@ -1,21 +1,12 @@
-# Food-and-Symptoms-Tracker
+# Food and Symptoms Tracker
 
-This repository analyzes meal-symptom correlations and meal time distribution to help identify food triggers for various symptoms. The project leverages data from Google Sheets, allowing users to track meal ingredients and associated symptoms. It also suggests safe ingredients and visualizes meal time patterns.
+A personal dashboard that tracks my food intake and related symptoms, built using Plotly Dash. This modular, interactive dashboard helps me gain insights into my health journey through data visualizations.
 
 ## Features
-- **Meal-Symptom Correlation**: Correlates ingredients with reported symptoms, adjusting for severity.
-- **Safe Ingredient Recommendations**: Suggests ingredients with low symptom associations.
-- **Meal Time Distribution**: Visualizes the distribution of meal times (Breakfast, Lunch, Dinner) using Seaborn boxplots.
-- **Data Integration**: Uses Google Sheets to store and analyze meal and symptom data.
 
-## Technologies Used
-- **Python**: Primary programming language.
-- **Pandas**: Data manipulation and analysis.
-- **Seaborn, Matplotlib**: Data visualization.
-- **Google Colab**: For seamless execution and integration with Google Sheets.
-- **gspread**: To interact with Google Sheets API.
+- **Meal Distribution**: Displays how breakfast, lunch, and dinner are distributed across different hour intervals.
+- **Most Common Cooking Methods**: Visualizes the most frequently used cooking methods.
+- **Average Meal Times by Weekday**: Shows the average meal times for each meal type over the week.
+- **Minimal Aesthetic**: Uses a soft warm minimal color palette and clean, modern typography inspired by Iron Viz.
 
-## How to Use
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/Food-and-Symptoms-Tracker.git
+
